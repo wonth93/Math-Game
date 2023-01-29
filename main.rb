@@ -1,3 +1,4 @@
-require "./player"
+require "./game"
 
-puts player2.name
+game = Game.new
+game.run
